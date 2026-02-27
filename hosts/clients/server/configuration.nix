@@ -92,10 +92,10 @@
   nixpkgs.config.allowUnfree = true;
   nix ={
     settings={
-      experimental-features ={
+      experimental-features =[ 
         "nix-command"
         "flakes"
-      };
+      ];
     };
   };
 
